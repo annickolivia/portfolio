@@ -14,7 +14,6 @@ import figma from '../assets/figma.svg'
 import illu from '../assets/illu.svg' 
 import {motion, useAnimation } from 'framer-motion'
 import { useEffect } from "react";
-import tailwindcss from '@tailwindcss/vite'
 
 
 export default function Outils() {

@@ -6,11 +6,9 @@ import { motion } from 'framer-motion';
 import Propos from './Propos';
 import Navbar from '../components/Navbar';
 import save from '../assets/save.svg'
-import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom';
 
 export default function Acueil() {
-  const location = useLocation();
   
   return (
     <div>
