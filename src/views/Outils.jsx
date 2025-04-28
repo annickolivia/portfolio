@@ -13,7 +13,6 @@ import php from '../assets/php.svg'
 import photoshop from '../assets/photoshop.svg' 
 import figma from '../assets/figma.svg' 
 import illu from '../assets/illu.svg' 
-import {motion, useAnimation } from 'framer-motion'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -101,12 +100,44 @@ export default function Outils() {
     slidesToShow: 4,
     slidesToScroll: 4
   };
+
+  const sm = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  };
   return (
     <div>
-    <div className='flex flex-col  gap-y-20 text-black '>
+    <div className='hidden lg:flex md:flex flex-col  gap-y-20 text-black '>
             <h1 className='text-center font-bold text-4xl text-gray-600'>Outils</h1>
           <div className='w-3xl m-auto'>
             <Slider {...settings}>
+              {data.map((d) => (
+                
+                 <div className="bg-white  h-[150px] rounded-xl">
+                    <div className='flex justify-center mt-5 items-center rounded-t-xl'>
+                      <img
+                        src={d.img}/>
+                    </div>
+                    <div  className='flex justify-center items-center'>
+                      <h2 className="font-bold">{d.name}</h2>             
+                    </div>
+                    <div className='flex justify-center items-center '>
+                      <p>{d.review}</p> 
+                    </div>
+                      
+                </div>
+              
+              ))}
+          </Slider>
+          </div>
+    </div>
+    <div className='lg:hidden md:hidden flex flex-col  gap-y-20 text-black '>
+            <h1 className='text-center font-bold text-4xl text-gray-600'>Outils</h1>
+          <div className='w-xl m-auto'>
+            <Slider {...sm}>
               {data.map((d) => (
                 
                  <div className="bg-white  h-[150px] rounded-xl">

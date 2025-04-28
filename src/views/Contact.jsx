@@ -7,8 +7,8 @@ export default function Contact() {
     <div>
 
     <div className=' flex w-full justify-center  '>
-      <div className='card bg-white p-10 px-20 shadow-xl'>
-        <h1 className='text-center font-bold text-4xl text-gray-600'>Contacter moi</h1> 
+      <div className='card bg-white md:p-10 md:px-20 p-5 px-10 shadow-xl'>
+        <h1 className='text-center font-bold md:text-4xl text-3xl text-gray-600'>Contactez-moi</h1> 
         <div className='flex flex-col gap-y-6 m-10 font-semibold text-gray-600'>
             <div className=' flex items-center  gap-x-6'>
               <IoMailOutline size={'30px'} />
@@ -37,7 +37,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
-      <h1 className='font-bold text-center mt-10 text-[#DB0155] text-xl'>Merci pour votre visite !</h1>
+      <h1 className='font-bold text-center mt-10 text-[#DB0155] text-xl'>Merci de votre visite !</h1>
     </div>
   )
 }

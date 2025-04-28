@@ -14,10 +14,10 @@ import 'swiper/css/navigation';
 // import './styles.css';
 export default function Projet() {
   return (
-    <div className='w-full space-y-8 '>
+    <div className='container mx-auto px-4 py-8 w-full space-y-8 '>
       <h1 className='text-center font-bold text-4xl text-gray-600'>Projets</h1>
         
-      <div className='flex gap-x-10 items-center justify-center'>
+      <div className='flex flex-wrap gap-x-10  gap-y-10 items-center justify-center'>
         
         <div className="card bg-white w-96 shadow-lg">
           <figure>

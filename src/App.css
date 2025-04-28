@@ -1,21 +1,28 @@
-@plugin "daisyui";
 @import "tailwindcss";
+@plugin "daisyui";
+
+@font-face {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
 
 
 @layer utilities {
   .bg-radial-custom {
-    background: 
-      /* radial-gradient(circle at top left, rgba(255, 0, 208, 0.2), transparent 30%),
-      radial-gradient(circle at top right, rgba(255, 255, 255), transparent 50%), 
-      radial-gradient(circle at bottom left, rgb(255, 255, 255), transparent 50%), 
-      radial-gradient(circle at bottom right, rgba(255, 0, 208, 0.3), transparent 30%), */
-      #ffeef5    ;
+    background: #ffeef5;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center;
   }
 }
+
+
 
 .slick-slide > div {
   margin: 0 10px;
@@ -28,3 +35,4 @@
 .slick-prev:before, .slick-next:before {
   color: #DB0155;
 }
+

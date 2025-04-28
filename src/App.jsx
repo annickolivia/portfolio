@@ -4,7 +4,9 @@ import Outils from './views/Outils';
 import Projet from './views/Projet';
 import Contact from './views/Contact';
 import Navbar from './components/Navbar';
+import { motion } from 'framer-motion';
 import './App.css'
+
 function App() {
 
   return (
