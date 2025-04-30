@@ -12,7 +12,7 @@ function App() {
   return (
       <div className="flex flex-col min-h-screen bg-radial-custom">
         <Navbar />
-        <section>
+        <section id="/">
           <Acueil />
         </section>
 

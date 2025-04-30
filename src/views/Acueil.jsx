@@ -3,6 +3,7 @@ import profil from '../assets/me.png'
 import Hi from '../assets/Hi.svg'
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import cv from '../assets/CV RANDRIANARIJAONA Annick.pdf'
 
 export default function Acueil() {
   
@@ -44,9 +45,9 @@ export default function Acueil() {
                 Designer UI/UX
               </p>
               <div className='flex space-x-6 sm:mt-5'>
-                <Link to={'https://docs.google.com/document/d/1vL0mzY6yq2xR5u28MfQKCkH6cF5naA8WoIT4qdXLCb0/edit?tab=t.0'} className="flex font-bold items-center gap-x-2 px-4 py-2 rounded-lg bg-gradient-to-bl  from-[#DB0155] to-[#9B002E] hover:from-[#9B002E] hover:to-[#DB0155] text-white cursor-pointer">
+                <a href={cv} download="CV RANDRIANARIJAONA Annick.pdf" className="flex font-bold items-center gap-x-2 px-4 py-2 rounded-lg bg-gradient-to-bl  from-[#DB0155] to-[#9B002E] hover:from-[#9B002E] hover:to-[#DB0155] text-white cursor-pointer">
                     Mon CV
-                </Link>
+                </a>
                 <a href={'#contact'}  className="flex font-bold items-center gap-x-2 px-4 py-2 rounded-lg bg-gradient-to-bl  from-[#DB0155] to-[#9B002E] hover:from-[#9B002E] hover:to-[#DB0155] transition-all duration-300 text-white cursor-pointer">
                     Me contacter ? 
                 </a>

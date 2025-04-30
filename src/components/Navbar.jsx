@@ -17,7 +17,7 @@ export default function Navbar() {
           <h1 className=' font-semibold text-2xl cursor-pointer text-[#DB0155] '>Annick</h1>
           <ul className='hidden lg:flex gap-x-10'>
             <li className='hover:text-[#DB0155]'>
-              <a  href='/'>Accueil</a>
+              <a  href='#/'>Accueil</a>
             </li>
 
             <li className='hover:text-[#DB0155]'>
@@ -39,11 +39,11 @@ export default function Navbar() {
       animate={{ x: 0 }}
       exit={{ x: "100%" }}
       transition={{ type: "spring", stiffness: 70 }}
-      className='fixed  space-y-4 right-0 h-auto  bg-[#DB0155] shadow-lg z-50 p-6 lg:hidden rounded-xl'>
+      className='fixed space-y-4 right-0 h-auto  bg-[#DB0155] shadow-lg z-50 lg:hidden rounded-xl'>
         
-        <ul className='flex flex-col space-y-2 gap-x-10 text-white text-lg px-20'>
+        <ul className='flex flex-col font-semibold space-y-2 text-white text-lg w-50 py-5 px-5'>
             <li className='hover:text-gray-600 duration-150'>
-              <a  href='/'>Accueil</a>
+              <a  href='#/'>Accueil</a>
             </li>
 
             <li className='hover:text-gray-600 duration-150'>
