@@ -49,7 +49,7 @@ export default function Propos() {
       </div>
       
      {/* responsive  */}
-      <div className="lg:hidden space-y-3 flex flex-col items-center justify-evenly">
+      <div className="lg:hidden space-y-3 flex flex-col items-center justify-center">
             
            
             <motion.div 
@@ -61,13 +61,13 @@ export default function Propos() {
                 repeatType: "mirror",
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                 }} 
-              className='flex ml-20'>
+              className='flex '>
               <img src={girl} alt='profil' className="w-sm "></img>
             </motion.div>
             <div className='space-y-6 flex flex-col px-10 items-center'>
               <h2 className='text-gray-600 font-bold text-2xl text-center  '>A propos de moi</h2>
               <div className='text-lg text-gray-600 font-semibold text-center '>
-                <p>Je suis Randrianarijaona Annick Olivia étudiante en Informatique Multimédia Technologie de l’Information et de la Communication à l’Institut Supérieur Polytechnique Antsobolo. <br/> Je suis passionnée par la développement web et la programation.  <br/>Je conçois des interfaces à la fois esthétiques et fonctionnelles.
+                <p>Je suis Randrianarijaona Annick Olivia étudiante en Informatique Multimédia Technologie de l’Information et de la Communication à l’Institut Supérieur Polytechnique Antsobolo. <br/> Je suis passionnée par le développement web et la programmation.  <br/>Je conçois des interfaces à la fois esthétiques et fonctionnelles.
                     Mon objectif ? Donner vie à des projets web qui allient design, fluidité et efficacité.
                 </p>
               </div>
