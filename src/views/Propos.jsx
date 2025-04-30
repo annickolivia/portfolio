@@ -47,6 +47,7 @@ export default function Propos() {
               </div>
             </div>
       </div>
+      
      {/* responsive  */}
       <div className="lg:hidden space-y-3 flex flex-col items-center justify-evenly">
             
@@ -89,7 +90,7 @@ export default function Propos() {
         <h1 className='text-center font-bold text-4xl text-gray-600'>Expérience Professionelle</h1> 
         {/* frize1 */}
         <div className='flex items-center justify-center'>
-            <h1 className='text-center text-white font-semibold text-xl bg-[#DB0155] p-5 rounded-lg'>06 Avril 2025</h1> 
+            <h1 className='text-center text-white font-semibold text-sm md:text-xl bg-[#DB0155] p-5 rounded-lg'>06 Avril 2025</h1> 
 
           {/* horozintal */}
               <div className='w-20 bg-[#DB0155] h-1'></div>
@@ -102,7 +103,7 @@ export default function Propos() {
              {/* horozintal */}
               <div className='w-20 bg-[#DB0155] h-1'></div>
 
-            <div className='flex flex-col gap-y-1 text-lg w-lg bg-white p-5 rounded-2xl shadow-lg text-black'>
+            <div className='flex flex-col gap-y-1 text-sm md:text-lg w-lg bg-white p-5 rounded-2xl shadow-lg text-black'>
               <h1 className='text-center font-semibold '>Développement Fullstack Laravel et React.js | INSTAT</h1>
               <p className='text-center font-semibold '>Plateforme d'échange de données</p>
               <ul className="list-disc pl-4 ml-4">

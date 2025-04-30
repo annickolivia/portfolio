@@ -32,14 +32,18 @@ export default function Acueil() {
             </motion.div>
 
           </div>
-
+          {/* responsive */}
           <div className='lg:hidden flex flex-col items-center mt-20' >
           <motion.div  initial={{opacity:0, x:500}} animate={{x: 0, opacity:1}}  transition={{ duration: 3 }} className='flex flex-col items-center justify-center mb-20' >
               <img src={profil} alt='profil' className="w-lg  h-auto"></img>
               <h1 className='text-3xl text-black'>Annick Olivia</h1>
             </motion.div>
           <motion.h1 className='flex flex-col items-center gap-y-2 '  initial={{opacity:0, x:-500}} animate={{x: 0, opacity:1}}  transition={{ duration: 3 }} >
-              <p className='flex justify-center gap-x-2 items-center text-xl text-gray-700  text-center'>Bonjour !<span><img src={Hi}/></span>, bienvenue dans mon site </p>
+              <div className='flex justify-center gap-x-2 items-center text-xl text-gray-700  text-center'>
+                 Bonjour !
+                 <img src={Hi} className='h-6'/>
+                 , bienvenue dans mon site
+                </div>
               <p className='md:text-5xl text-4xl text-center font-bold md:leading-14 text-black' >
                 Développeur Fullstack <br/> <span className='text-[#DB0155]'> Javascript et Php </span> <br/>
                 Designer UI/UX

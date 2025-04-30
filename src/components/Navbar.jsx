@@ -6,14 +6,15 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
   const [isOpen , setIsopen] = useState(false)
+  
 
   const Open = () => {
     setIsopen(!isOpen)
   }
   return (
 
-    <nav className='bg-[#ffeef5] fixed w-full z-10 p-5 ' >
-      <div className=' w-full text-gray-700 flex items-center lg:justify-around justify-between text-xl '>
+    <nav className='bg-[#ffeef5] fixed w-[100vw] z-10 p-5 ' >
+      <div className='w-full text-gray-700 flex items-center lg:justify-around justify-between text-xl '>
           <h1 className=' font-semibold text-2xl cursor-pointer text-[#DB0155] '>Annick</h1>
           <ul className='hidden lg:flex gap-x-10'>
             <li className='hover:text-[#DB0155]'>
@@ -39,7 +40,7 @@ export default function Navbar() {
       animate={{ x: 0 }}
       exit={{ x: "100%" }}
       transition={{ type: "spring", stiffness: 70 }}
-      className='fixed space-y-4 right-0 h-auto  bg-[#DB0155] shadow-lg z-50 lg:hidden rounded-xl'>
+      className='fixed space-y-4 right-0 bg-[#DB0155] shadow-lg z-50 lg:hidden rounded-xl'>
         
         <ul className='flex flex-col font-semibold space-y-2 text-white text-lg w-50 py-5 px-5'>
             <li className='hover:text-gray-600 duration-150'>

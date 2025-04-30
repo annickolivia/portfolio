@@ -136,19 +136,19 @@ export default function Outils() {
     </div>
     <div className='lg:hidden md:hidden flex flex-col  gap-y-20 text-black '>
             <h1 className='text-center font-bold text-4xl text-gray-600'>Outils</h1>
-          <div className='w-xl m-auto'>
+          <div className='w-80 m-auto'>
             <Slider {...sm}>
               {data.map((d) => (
                 
-                 <div className="bg-white  h-[150px] rounded-xl">
+                 <div className="bg-white  h-[130px] rounded-xl space-y-2">
                     <div className='flex justify-center mt-5 items-center rounded-t-xl'>
                       <img
-                        src={d.img}/>
+                        src={d.img} className='w-10'/>
                     </div>
                     <div  className='flex justify-center items-center'>
-                      <h2 className="font-bold">{d.name}</h2>             
+                      <h2 className="font-bold text-sm">{d.name}</h2>             
                     </div>
-                    <div className='flex justify-center items-center '>
+                    <div className='flex justify-center items-center text-sm '>
                       <p>{d.review}</p> 
                     </div>
                       
