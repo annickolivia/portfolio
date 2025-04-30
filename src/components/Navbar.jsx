@@ -17,7 +17,7 @@ export default function Navbar() {
           <h1 className=' font-semibold text-2xl cursor-pointer text-[#DB0155] '>Annick</h1>
           <ul className='hidden lg:flex gap-x-10'>
             <li className='hover:text-[#DB0155]'>
-              <a  href='#/'>Accueil</a>
+              <a  href='/'>Accueil</a>
             </li>
 
             <li className='hover:text-[#DB0155]'>
