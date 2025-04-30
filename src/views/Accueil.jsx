@@ -9,7 +9,7 @@ export default function Acueil() {
   
   return (
     <div>
-          <div className='hidden mt-30 lg:flex justify-center gap-x-20' >
+          <div className='hidden lg:flex justify-center gap-x-20' >
           <motion.h1 className='flex flex-col items-start gap-y-5' initial={{opacity:0, y:500}} animate={{y: 180, opacity:1}}  transition={{ duration: 3 }}>
               <p className='flex justify-center gap-x-2 items-center text-xl text-gray-700  text-center'>Bonjour !<span><img src={Hi}/></span>, bienvenue dans mon site </p>
               <p className='text-5xl  font-bold leading-16 text-black' >
@@ -26,9 +26,9 @@ export default function Acueil() {
               </div>
              
             </motion.h1>
-            <motion.div  initial={{opacity:0, x:500}} animate={{x: 0, opacity:1}}  transition={{ duration: 3 }} className='flex flex-col items-center justify-center mb-20 space-y-6' >
+            <motion.div  initial={{opacity:0, x:100}} animate={{x: 0, opacity:1}}  transition={{ duration: 3 }} className='flex flex-col items-center justify-center mb-20 space-y-6' >
               <img src={profil} alt='profil' className="w-2xl  h-auto"></img>
-              <h2 className='text-5xl text-black'>Annick Olivia</h2>
+              <h1 className='text-5xl text-black'>Annick Olivia</h1>
             </motion.div>
 
           </div>
@@ -36,7 +36,7 @@ export default function Acueil() {
           <div className='lg:hidden flex flex-col items-center mt-20' >
           <motion.div  initial={{opacity:0, x:500}} animate={{x: 0, opacity:1}}  transition={{ duration: 3 }} className='flex flex-col items-center justify-center mb-20' >
               <img src={profil} alt='profil' className="w-lg  h-auto"></img>
-              <h2 className='text-3xl text-black'>Annick Olivia</h2>
+              <h1 className='text-3xl text-black'>Annick Olivia</h1>
             </motion.div>
           <motion.h1 className='flex flex-col items-center gap-y-2 '  initial={{opacity:0, x:-500}} animate={{x: 0, opacity:1}}  transition={{ duration: 3 }} >
               <p className='flex justify-center gap-x-2 items-center text-xl text-gray-700  text-center'>Bonjour !<span><img src={Hi}/></span>, bienvenue dans mon site </p>
@@ -55,6 +55,7 @@ export default function Acueil() {
              
             </motion.h1>
           </div>  
+
       </div>
       
   )

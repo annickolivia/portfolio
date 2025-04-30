@@ -1,17 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@font-face {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./assets/fonts/Lato-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-
 @layer utilities {
   .bg-radial-custom {
     background: #ffeef5;

@@ -10,13 +10,13 @@ import {  IoMailOutline, IoLogoGithub  } from "react-icons/io5";
 export default function Propos() {
  
   return (
-    <div className='flex flex-col gap-y-24 justify-center min-h-screen  w-full'>
+    <div className='flex flex-col gap-y-24 justify-center w-full'>
       <div className="hidden lg:flex justify-evenly">
             
            
             <motion.div 
                 initial={{ y: -30}}  
-                animate={{ y: 10 }}  
+                animate={{ y: 10 }} 
                 transition={{
                 duration: 2,
                 repeat: Infinity,

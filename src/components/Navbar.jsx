@@ -17,7 +17,7 @@ export default function Navbar() {
           <h1 className=' font-semibold text-2xl cursor-pointer text-[#DB0155] '>Annick</h1>
           <ul className='hidden lg:flex gap-x-10'>
             <li className='hover:text-[#DB0155]'>
-              <a  href='/'>Accueil</a>
+              <a  href='#accueil'>Accueil</a>
             </li>
 
             <li className='hover:text-[#DB0155]'>
@@ -43,7 +43,7 @@ export default function Navbar() {
         
         <ul className='flex flex-col font-semibold space-y-2 text-white text-lg w-50 py-5 px-5'>
             <li className='hover:text-gray-600 duration-150'>
-              <a  href='#/'>Accueil</a>
+              <a  href='#accueil'>Accueil</a>
             </li>
 
             <li className='hover:text-gray-600 duration-150'>

@@ -1,37 +1,43 @@
-import Acueil from './views/Acueil';
+import Accueil from './views/Accueil';
 import Propos from './views/Propos';
 import Outils from './views/Outils';
 import Projet from './views/Projet';
 import Contact from './views/Contact';
 import Navbar from './components/Navbar';
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import './App.css'
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
 
   return (
-      <div className="flex flex-col min-h-screen bg-radial-custom">
-        <Navbar />
-        <section>
-          <Acueil />
-        </section>
+      <div className=" min-h-screen bg-radial-custom">
+          <Navbar />
 
-        <section id="a-propos" className="py-16 px-4 md:px-8">
-          <Propos />
-        </section>
+          <div id="accueil" className="min-h-screen py-16 px-4 ">
+            <Accueil />
+          </div>
 
-        <section id="outils" className="py-16 px-4 md:px-8 ">
-          <Outils />
-        </section>
+          <div id="a-propos" className="min-h-screen py-16 px-4">
+            <Propos />
+          </div>
 
-        <section id="projet" className="py-16 px-4 md:px-8">
-          <Projet />
-        </section>
+          <div id="outils" className=" py-16 px-4">
+            <Outils />
+          </div>
 
-        <section id="contact" className="py-16 px-4 md:px-8 ">
-          <Contact />
-        </section>
-    </div>
+          <div id="projet" className="min-h-screen py-16 px-4">
+            <Projet />
+          </div>
+
+          <div id="contact" className="min-h-screen py-16 px-4">
+            <Contact />
+          </div>
+      </div>
     
   )
 }
