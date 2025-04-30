@@ -1,18 +1,19 @@
 import React from 'react'
-import js from '../assets/js.svg' 
 import html from '../assets/html.svg' 
 import css from '../assets/css.svg' 
-import mongodb from '../assets/mongodb.svg' 
-import mysql from '../assets/mysql.svg' 
-import react from '../assets/react.svg' 
-import node from '../assets/node.svg' 
-import laravel from '../assets/laravel.svg' 
-import vue from '../assets/vue.svg' 
-import tlw from '../assets/tlw.svg' 
+import js from '../assets/js.svg' 
 import php from '../assets/php.svg' 
-import photoshop from '../assets/photoshop.svg' 
-import figma from '../assets/figma.svg' 
+import laravel from '../assets/laravel.svg' 
+import mongo from '../assets/mongo.svg' 
+import vue from '../assets/vue.svg' 
+import react from '../assets/react.svg' 
 import illu from '../assets/illu.svg' 
+import photo from '../assets/photo.svg' 
+import tailwind from '../assets/tailwind.svg' 
+import mysql from '../assets/mysql.svg' 
+import node from '../assets/node.svg' 
+import figma from '../assets/figma.svg' 
+
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -63,18 +64,18 @@ export default function Outils() {
     },
     {
       name: `tailwind`,
-      img: tlw,
+      img: tailwind,
       review: `Framework`
     },
     {
       name: `MongoDB`,
-      img: mongodb,
-      review: `Base de données`
+      img: mongo,
+      review: `BD`
     },
     {
       name: `MySQL`,
       img: mysql,
-      review: `Base de données`
+      review: `BD`
     },
     {
       name: `Figma`,
@@ -83,7 +84,7 @@ export default function Outils() {
     },
     {
       name: `Photoshop`,
-      img: photoshop,
+      img: photo,
       review: `Design`
     },
     {
@@ -143,7 +144,7 @@ export default function Outils() {
                  <div className="bg-white  h-[130px] rounded-xl space-y-2">
                     <div className='flex justify-center mt-5 items-center rounded-t-xl'>
                       <img
-                        src={d.img} className='w-10'/>
+                        src={d.img} />
                     </div>
                     <div  className='flex justify-center items-center'>
                       <h2 className="font-bold text-sm">{d.name}</h2>             
