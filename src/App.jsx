@@ -30,11 +30,11 @@ function App() {
             <Outils />
           </div>
 
-          <div id="projet" className="min-h-screen py-16 px-4">
+          <div id="projet" className="py-16 px-4">
             <Projet />
           </div>
 
-          <div id="contact" className="min-h-screen py-16 px-4">
+          <div id="contact" className=" py-16 px-4">
             <Contact />
           </div>
       </div>
