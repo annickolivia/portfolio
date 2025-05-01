@@ -13,7 +13,7 @@ export default function Acueil() {
           <motion.h1 className='flex flex-col items-start gap-y-5' initial={{opacity:0, y:500}} animate={{y: 180, opacity:1}}  transition={{ duration: 3 }}>
               <p className='flex justify-center gap-x-2 items-center text-xl text-gray-700  text-center'>Bonjour !<span><img src={Hi}/></span>, bienvenue dans mon site </p>
               <p className='text-5xl  font-bold leading-16 text-black' >
-                Développeur Fullstack <br/> <span className='text-[#DB0155]'> Javascript et Php </span> <br/>
+                Développeur Fullstack <br/> <span className='text-[#DB0155]'> JavaScript et PHP </span> <br/>
                 Designer UI/UX
               </p>
               <div className='flex space-x-6'>
@@ -45,7 +45,7 @@ export default function Acueil() {
                  , bienvenue dans mon site
                 </div>
               <p className='md:text-5xl text-4xl text-center font-bold md:leading-14 text-black' >
-                Développeur Fullstack <br/> <span className='text-[#DB0155]'> Javascript et Php </span> <br/>
+                Développeur Fullstack <br/> <span className='text-[#DB0155]'> JavaScript et PHP </span> <br/>
                 Designer UI/UX
               </p>
               <div className='flex space-x-6 sm:mt-5'>
