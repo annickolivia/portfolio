@@ -94,7 +94,7 @@ export default function Outils() {
     },
 
   ]
-    const settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
