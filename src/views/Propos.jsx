@@ -84,6 +84,41 @@ export default function Propos() {
       <div className="space-y-20 ">
         <h1 className='text-center font-bold text-4xl text-gray-600'>Expérience Professionelle</h1> 
           <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+             <li>
+            <hr />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5 text-[#DB0155]"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end md:mb-10">
+              <time className="font-mono italic text-gray-600">12 Août 2025</time>
+              <div className="text-lg font-black text-gray-600">Stagiaire chez SENSO Design Agency</div>
+                    <div className='flex flex-col gap-y-1 text-sm md:text-lg lg:w-lg bg-white p-5 rounded-2xl shadow-lg text-black'>
+                      <p className='text-center font-semibold '> Maintenance et mise en ligne du site</p>
+                      <ul className="list-disc pl-4 ml-4">
+                        <li>Mise à jour du contenu, amélioration des performances et suivi technique.</li>
+                        <li>Améliorations graphiques, ajout de nouvelles sections, mise à jour régulière du contenu.</li>
+                      </ul>
+                      <p className='text-center font-semibold '> Création d'un site e-commerce </p>
+                      <ul className="list-disc pl-4 ml-4">
+                        <li>Conception de l’interface.</li>
+                        <li>Intégration du catalogue produits.</li>
+                        <li>Vente d’objets et accessoires pour la maison, avec gestion des stocks, panier.</li>
+                      </ul>
+                    </div>
+            </div>
+            <hr className='bg-[#DB0155]'/>
+          </li>
           <li>
             <div className="timeline-middle">
               <svg
@@ -102,12 +137,11 @@ export default function Propos() {
            <div className="timeline-start mb-10 md:text-end">
           {/* Date */}
           <time className="font-mono italic block text-gray-600">06 Avril 2025</time>
-                  <div className="text-lg font-black text-gray-600">INSTAT Madagascar</div>
+                  <div className="text-lg font-black text-gray-600">Stagiaire chez INSTAT Madagascar</div>
                   <div className="bg-white text-black p-5 rounded-2xl shadow-lg max-w-xl w-full md:ml-auto">
                     <h2 className="text-center font-semibold text-base md:text-lg mb-1">Plateforme d'échange de données</h2>
 
                     <ul className="list-disc pl-5 space-y-1 text-sm md:text-base text-left">
-                      <li>Stagiaire en développement web.</li>
                       <li>Développement Fullstack Laravel et React.js</li>
                       <li>Développement d’une application web permettant l’échange de données entre différentes sociétés.</li>
                       <li>Utilisation de React.js comme frontend et Laravel comme backend.</li>
@@ -117,38 +151,7 @@ export default function Propos() {
               </div>
           <hr className='bg-[#DB0155]' />
           </li>
-          <li>
-            <hr />
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5 text-[#DB0155]"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-end md:mb-10">
-              <time className="font-mono italic text-gray-600">07 Août 2025</time>
-              <div className="text-lg font-black text-gray-600">SENSO Design Agency</div>
-
-                    <div className='flex flex-col gap-y-1 text-sm md:text-lg lg:w-lg bg-white p-5 rounded-2xl shadow-lg text-black'>
-                      <p className='text-center font-semibold '>Création, maintenance et mise en ligne du site</p>
-                      <ul className="list-disc pl-4 ml-4">
-                        <li>Création de site vitrine pour mettre en valeur des prestations de design et décoration d’intérieur.</li>
-                        <li>Créer une plateforme élégante, claire et responsive permettant de présenter les services.</li>
-                        <li>Réalisations (galerie).</li>
-                        <li>Faciliter la prise de contact..</li>
-                      </ul>
-                    </div>
-            </div>
-            <hr className='bg-[#DB0155]'/>
-          </li>
+         
 
         </ul>
       </div>
