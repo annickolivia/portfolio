@@ -13,7 +13,7 @@ export default function Acueil() {
           <div className='hidden lg:flex justify-center gap-x-20' >
           <motion.h1 className='flex flex-col items-start gap-y-5' initial={{opacity:0, y:500}} animate={{y: 180, opacity:1}}  transition={{ duration: 3 }}>
               <p className='flex justify-center gap-x-2 items-center text-xl text-gray-700  text-center'>Bonjour !<span><img src={Hi}/></span>, bienvenue dans mon site </p>
-              <p className='text-5xl  font-bold leading-16 text-black' >
+              <p className='text-5xl  font-bold leading-16 text-black ' >
                 Développeur Fullstack <br/> <span className='text-[#DB0155]'> JavaScript et PHP </span> <br/>
                 Designer UI/UX
               </p>

@@ -101,10 +101,10 @@ export default function Propos() {
               </svg>
             </div>
             <div className="timeline-end md:mb-10">
-              <time className="font-mono italic text-gray-600">10 Août 2025</time>
+              <time className="font-mono italic text-gray-600">01 Septembre 2025</time>
               <div className="text-lg font-black text-gray-600">Stagiaire chez SENSO Design Agency</div>
                     <div className='flex flex-col gap-y-1 text-sm md:text-lg lg:w-lg bg-white p-5 rounded-2xl shadow-lg text-black'>
-                      <p className='text-center font-semibold '> Maintenance et mise en ligne du site</p>
+                      <p className='text-center font-semibold '>Maintenance et mise en ligne du site</p>
                       <ul className="list-disc pl-4 ml-4">
                         <li>Mise à jour du contenu, amélioration des performances et suivi technique.</li>
                         <li>Améliorations graphiques, ajout de nouvelles sections, mise à jour régulière du contenu.</li>
@@ -112,7 +112,8 @@ export default function Propos() {
                       <p className='text-center font-semibold '> Création d'un site e-commerce </p>
                       <ul className="list-disc pl-4 ml-4">
                         <li>Conception de l’interface.</li>
-                        <li>Intégration du catalogue produits.</li>
+                        <li>Integration.</li>
+                        <li>Gestion des produits.</li>
                         <li>Vente d’objets et accessoires pour la maison, avec gestion des stocks, panier.</li>
                       </ul>
                     </div>
