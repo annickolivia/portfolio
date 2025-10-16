@@ -101,7 +101,7 @@ export default function Propos() {
               </svg>
             </div>
             <div className="timeline-end md:mb-10">
-              <time className="font-mono italic text-gray-600">01 Septembre 2025</time>
+              <time className="font-mono italic text-gray-600">17 Septembre 2025</time>
               <div className="text-lg font-black text-gray-600">Stagiaire chez SENSO Design Agency</div>
                     <div className='flex flex-col gap-y-1 text-sm md:text-lg lg:w-lg bg-white p-5 rounded-2xl shadow-lg text-black'>
                       <p className='text-center font-semibold '>Maintenance et mise en ligne du site</p>

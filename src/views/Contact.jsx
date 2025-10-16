@@ -16,7 +16,7 @@ export default function Contact() {
             </div>
             <div className=' flex items-center  gap-x-6'>
             <IoLogoWhatsapp size={'30px'} />
-              +261 32 80 049 98
+              +261 37 85 868 81
             </div>
             <div className=' flex items-center  gap-x-6'>
               <IoLogoLinkedin  size={'30px'}/>
